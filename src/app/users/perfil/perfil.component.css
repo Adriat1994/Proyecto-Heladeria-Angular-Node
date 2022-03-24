@@ -67,6 +67,10 @@ button{
   font-size: 12px;
   margin-right: 50px;
   margin-top: 150px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgba(56, 9, 9, 0.774);
 }
 
 -----------------------------

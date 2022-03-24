@@ -4,7 +4,9 @@
   <h1>Especialidades</h1>
   <div class="search">
     <button class="return" [routerLink]="'/helados'">
-    Volver a Helados
+      <svg id="i-arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M10 6 L2 16 10 26 M2 16 L30 16" />
+    </svg> Volver
     </button>
     <div class="search_name">
       <label for="searchName">Busca tu especialidad....</label>
@@ -25,15 +27,21 @@
 </section>
 
 <div class="button-container">
-  <button
+  <button class="link-info d-flex flex-column align-items-center"
   (click)="nextPage()"
   [disabled]="(especialidadesList | filterespecial:page:search).length === 0">
-    Siguentes
+    Siguentes <svg id="i-forwards"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M16 2 L30 16 16 30 16 16 2 30 2 2 16 16 Z" />
+  </svg>
 </button>
   &nbsp;
-  <button
+  <button class="link-info d-flex flex-column align-items-center"
   (click)="prevPage()">
-  Anteriores
+  Anteriores <svg id="i-backwards" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M16 2 L2 16 16 30 16 16 30 30 30 2 16 16 Z" />
+</svg>
   </button>
 </div>
 

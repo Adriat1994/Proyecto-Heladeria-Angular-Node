@@ -66,6 +66,10 @@ button{
   font-weight: 700;
   font-size: 15px;
   margin-right: 50px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgba(56, 9, 9, 0.774);
 }
 .return{
   float:right;
