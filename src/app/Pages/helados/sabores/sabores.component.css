@@ -72,16 +72,12 @@ button{
   color:#E6D2B4;
   font-weight: 700;
   font-size: 15px;
-  margin-right: 50px;
-<<<<<<< HEAD
-
-=======
+  height: 50px;
   border-radius: 10px;
-
 }
+
 button:hover{
   background-color: rgba(56, 9, 9, 0.774);
->>>>>>> e679742bf070537f22784ea2b9d3a1b17a5f17ca
 }
 .return{
   float:right;
