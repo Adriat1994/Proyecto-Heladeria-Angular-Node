@@ -9,6 +9,8 @@ El Backend fue realizado en Node.js, con express y mongodb compass. Después fue
 
 El Frontend fue desarrollado en Angular.
 
+La web es sobre una heladeía, en la cual se pueden previsualizar los helados en el cucurucho directamente en la home. Tenemos una sección de helados, los distintos sabores y especialidades. Si nos registramos como usuarios, podemos acceder a nuestro perfil, donde se muestran nuestros datos. También podemos elegir que sabores son nuestros favoritos, los cuales se guardaran para mostrarse en nuestro perfil.
+
 Cuenta con navegación, con rutas protegidas para solo ser accesibles para los usuarios logados gracias a una guarda. También cuenta con rutas dinamicas en función del id del usuario, siendo esta la del perfil. 
 Desarrollamos un interceptor para nuestras peticiones HTTP. 
 Utilizamos observables en los servicios para trasmitir la información entre componentes.
