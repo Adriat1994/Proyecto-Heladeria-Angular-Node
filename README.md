@@ -1,27 +1,36 @@
-# FrontHelados
+# Proyecto Angular Heladeria
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Este proyecto es realizado en colaboración con mis compañeros Alessio Fiol y Celia Ballesteros
 
-## Development server
+  ## Descripción
+Proyecto final del bootcamp cursado en Upgrade Hub. Este proyecto fue realizado por 3 personas, Alessio Fiol, Celia Ballesteros y Adrián Torres. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+El Backend fue realizado en Node.js, con express y mongodb compass. Después fue desplegado en Heroku y mongodb Cloud.
 
-## Code scaffolding
+El Frontend fue desarrollado en Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Cuenta con navegación, con rutas protegidas para solo ser accesibles para los usuarios logados gracias a una guarda. También cuenta con rutas dinamicas en función del id del usuario, siendo esta la del perfil. 
+Desarrollamos un interceptor para nuestras peticiones HTTP. 
+Utilizamos observables en los servicios para trasmitir la información entre componentes.
+Utilizamos un pipe para filtrar en la sección de helados y especialidades. Tamibén implementamos paginación en estas secciones.
+Desarrollamos un sistema de registro y login de usuarios, utilizando Angular Forms. Estos formularios cuentan con validaciones.
+Desarrollamos un validador personalizado para la contraseña del usuario, de forma que el usuario al logarse tenga que repetir la contraseña y nosotros nos aseguremos de que esta coincida.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+  ## URL para ver el resultado
+Para ver el proyecto en directo puedes verlo aquí (https://agular-heladeria.netlify.app/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+  ## Autores ✒️
+**Adrián Torres**
+* [Github](https://github.com/Adriat1994)
+* [Linkedin](https://www.linkedin.com/in/adri%C3%A1n-torres-serrano-a2519a141/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Alessio Fiol**
+* [Linkedin](https://www.linkedin.com/in/alessiofiol/)
 
-## Further help
+**Celia Ballesteros**
+* [Github](https://github.com/Cebalgar)
+* [Linkedin](https://www.linkedin.com/in/celia-b-6b85ba182/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
